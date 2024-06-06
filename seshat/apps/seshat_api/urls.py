@@ -8,8 +8,8 @@ from . import views
 
 
 router = routers.DefaultRouter()
-router.register(r'users', views.UserViewSet)
-router.register(r'groups', views.GroupViewSet)
+# router.register(r'users', views.UserViewSet)
+# router.register(r'groups', views.GroupViewSet)
 router.register(r'politys-api', views.PolityViewSet)
 #router.register(r'sections', views.SectionViewSet)
 
